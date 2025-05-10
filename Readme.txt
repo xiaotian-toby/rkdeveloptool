@@ -3,6 +3,8 @@ rkdeveloptool gives you a simple way to read/write rockusb device.let's start.
 compile and install
 1. install libusb and libudev
 	sudo apt-get install libudev-dev libusb-1.0-0-dev dh-autoreconf
+  mac:
+	brew install automake autoconf libusb pkg-config
 2. go into root of rkdeveloptool
 3. ./autogen.sh
 4. ./configure
